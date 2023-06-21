@@ -17,7 +17,6 @@ struct CardGameView: View {
        
         VStack{
             HStack {
-            
                 SuitButton(suitImage: "suit.heart.fill", suitName: "Heart", suitColor: .red, sSuit: $selectedSuit)
                 
                 Spacer()
@@ -31,12 +30,7 @@ struct CardGameView: View {
             Image(systemName: selectedSuit)
                 .resizable()
                 .scaledToFit()
-                .frame(width: 80, height: 80)
-            Button(action: {
-                selectedSuit = "circle.fill"
-            }, label: {
-                Text("change")
-            })
+                .frame(width: 100, height: 100)
             
             HStack {
                 SuitButton(suitImage: "suit.spade.fill", suitName: "Spade", suitColor: .black, sSuit: $selectedSuit)
@@ -46,6 +40,8 @@ struct CardGameView: View {
                 SuitButton(suitImage: "suit.club.fill", suitName: "Club", suitColor: .black, sSuit: $selectedSuit)
             }
             .padding(24)
+            
+            SuitButton(suitImage: "suit.club.fill", suitName: "Club", suitColor: .black, sSuit: $selectedSuit)
         }
     }
 }
@@ -82,21 +78,7 @@ struct SuitButton: View {
             }
             .buttonStyle(.borderedProminent)
         .tint(suitColor)
-            
-            ResetButton(sSuit: $sSuit)
-            Text(sSuit)
         }
         
-    }
-}
-
-struct ResetButton: View {
-    @Binding var sSuit: String
-    var body: some View {
-        Button(action: {
-            sSuit = "questionmark"
-        }, label: {
-            Text("Reset")
-        })
     }
 }

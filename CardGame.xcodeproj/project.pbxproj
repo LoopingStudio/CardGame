@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		430C53522A409E7E005ED4F4 /* CardGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C53512A409E7E005ED4F4 /* CardGameView.swift */; };
+		4384E6A52A42F72D00BC75D7 /* LaViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4384E6A42A42F72D00BC75D7 /* LaViewView.swift */; };
 		D3A789372A4080AB00712C32 /* CardGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A789362A4080AB00712C32 /* CardGameApp.swift */; };
 		D3A789392A4080AB00712C32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A789382A4080AB00712C32 /* ContentView.swift */; };
 		D3A7893B2A4080AC00712C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A7893A2A4080AC00712C32 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		430C53512A409E7E005ED4F4 /* CardGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameView.swift; sourceTree = "<group>"; };
+		4384E6A42A42F72D00BC75D7 /* LaViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaViewView.swift; sourceTree = "<group>"; };
 		D3A789332A4080AB00712C32 /* CardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A789362A4080AB00712C32 /* CardGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGameApp.swift; sourceTree = "<group>"; };
 		D3A789382A4080AB00712C32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 			isa = PBXGroup;
 			children = (
 				430C53512A409E7E005ED4F4 /* CardGameView.swift */,
+				4384E6A42A42F72D00BC75D7 /* LaViewView.swift */,
 				D3A789352A4080AB00712C32 /* CardGame */,
 				D3A789342A4080AB00712C32 /* Products */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				430C53522A409E7E005ED4F4 /* CardGameView.swift in Sources */,
 				D3A789392A4080AB00712C32 /* ContentView.swift in Sources */,
+				4384E6A52A42F72D00BC75D7 /* LaViewView.swift in Sources */,
 				D3A789372A4080AB00712C32 /* CardGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
